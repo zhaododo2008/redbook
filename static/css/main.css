@@ -1,0 +1,259 @@
+.container {
+  -webkit-overflow-scrolling: touch;
+}
+
+.filters-block {
+  min-height: 1.1rem;
+}
+
+
+.banner[data-v-1a64ad54] {
+  position: relative;
+  margin-bottom: 0.2rem;
+}
+.banner img[data-v-1a64ad54] {
+  display: block;
+  width: 100%;
+  border-radius: 0.08rem;
+}
+
+.filters {
+  white-space: nowrap;
+  color: #999;
+  overflow-x: scroll;
+  padding: 0.3rem 0.1rem;
+  -webkit-overflow-scrolling: touch;
+}
+.filters::-webkit-scrollbar {
+  display: none;
+}
+.filters>div {
+  display: inline-block;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.26rem;
+  padding: 0 0.4rem;
+  border: 0.01rem solid #e6e6e6;
+  background: #fff;
+  margin: 0 0.1rem;
+  border-radius: 0.24rem;
+  text-align: center;
+  cursor: pointer;
+}
+.filters>div.active {
+  font-weight: 800;
+  color: #333;
+}
+
+.search-page {
+  width: 7.5rem;
+  background: 0 0;
+  position: fixed;
+  top: 0.88rem;
+  bottom: 0;
+  font-size: 0.3rem;
+  background: #fff;
+  text-align: left;
+  z-index: 1000002;
+}
+.search-page::-webkit-scrollbar {
+  display: none;
+}
+.search-page .search-recommend {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: #999;
+  font-size: 0.3rem;
+}
+.search-page .search-recommend .search-title {
+  height: 0.8rem;
+  line-height: 0.88rem;
+  font-size: 0.26rem;
+  background: #f5f8fa;
+  width: 100%;
+  padding: 0 0.4rem;
+}
+.search-page .search-recommend .search-keywords {
+  width: 100%;
+  padding: 0.3rem;
+  color: #666;
+  white-space: normal;
+  font-size: 0.28rem;
+}
+.search-page .search-recommend .search-keywords .keyword {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.2rem 0.3rem;
+  margin: 0 0.2rem 0.2rem 0;
+  line-height: 0.3rem;
+  background: #f5f8fa;
+  border-radius: 4PX;
+}
+.search-page .search-result {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.1rem;
+  padding-left: 0.3rem;
+  background: #fff;
+  font-size: 0.3rem;
+  color: #666;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+.search-page .search-result::-webkit-scrollbar {
+  display: none;
+}
+.search-page .search-result .item {
+  cursor: pointer;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  border-bottom: 0.02rem solid #e6e6e6;
+  overflow: hidden;
+}
+.search-page .search-result .item .item-link {
+  font-size: 0;
+  color: #333;
+}
+.search-page .search-result .item .item-link .bold {
+  font-weight: 800;
+}
+.search-page .search-result .item .item-link * {
+  font-size: 0.3rem;
+}
+.search-page .search-result .item .num {
+  position: absolute;
+  right: 0.3rem;
+  font-size: 0.26rem;
+}
+
+.icon {
+  display: inline-block;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  height: 0.88rem;
+  background: #fff;
+  font-size: 0.3rem;
+  white-space: nowrap;
+  z-index: 10010;
+  -webkit-box-shadow: 0 0.04rem 0.08rem 0 rgba(0,0,0,0.08);
+  box-shadow: 0 0.04rem 0.08rem 0 rgba(0,0,0,0.08);
+}
+.nav > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.nav .home {
+  height: 100%;
+  width: 1.2rem;
+  line-height: 0.88rem;
+  margin: 0 0.3rem;
+}
+.nav .home .logo {
+  width: 1.2rem;
+  height: 0.4rem;
+  vertical-align: middle;
+}
+.nav .tools {
+  text-align: right;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -o-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0.18rem 0;
+}
+.nav .tools .search-bar {
+  position: relative;
+  padding: 0.14rem 0.3rem;
+}
+.nav .tools .search-input {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-radius: 0.3rem;
+}
+.nav .tools .search-icon {
+  float: left;
+  width: 0.3rem;
+  height: 0.3rem;
+  margin: 0.14rem 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav .tools .search-keyword {
+  float: left;
+  display: inline-block;
+  width: 1.5rem;
+  vertical-align: top;
+  font-size: 0.3rem;
+  color: #666;
+  line-height: 0.34rem;
+  line-height: 0.6rem;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.nav .tools .red-button {
+  display: inline-block;
+  width: 1.7rem;
+  height: 0.52rem;
+  background-image: url("//ci.xiaohongshu.com/aa327a98-f2ba-4225-a8a7-8d15a1a8a036");
+  border-radius: 2rem;
+  margin-right: 0.32rem;
+}
+.nav .tools .red-button.android {
+  padding-top: 0.12rem;
+  padding-bottom: 0.08rem;
+}
+.fixed::after {
+  display: block;
+  content: '';
+  height: 0.88rem;
+  width: 100%;
+}
+.fixed .nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+@media screen and (min-device-width: 768px) {
+  .fixed .nav {
+    width: 450PX;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+}
