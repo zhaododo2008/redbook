@@ -50,6 +50,30 @@
           </div>
         </div>
       </div>
+      <div class="banner">
+        <div class="carousel-item">
+          <div class="video intro-video" style="width: 100%;" videofullscreen="true">
+
+            <div class="poster video__poster" style="min-height: 239.625px;">
+              <div class="poster-image cube-image normal-image"
+                   style="width: 426px; height: 239.625px;">
+                <img src="//ci.xiaohongshu.com/9ea6ee30-74e2-4011-80be-77e7bda0d318"></div>
+            </div>
+            <div class="mini-bar-container">
+              <div class="mini-progress-bar" style="width: 0%;"></div>
+            </div>
+            <div class="icons">
+              <svg width="16px" height="16px" class="cube-icon icons__play-icon">
+                <use xlink:href="#poster-play-icon"></use>
+              </svg>
+              <svg width="16px" height="16px" class="cube-icon icons__loading-icon"
+                   style="display: none;">
+                <use xlink:href="#loading-icon"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
